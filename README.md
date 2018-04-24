@@ -195,9 +195,9 @@ Základní scénář C - Vymazání receptu
 
 1) Zkontroluje zda má uživatel práva na zobrazení skladu
 
-        2) Pokud má uživatel práva, zkontroluje zda je sklad vytvořen
+2) Pokud má uživatel práva, zkontroluje zda je sklad vytvořen
 
-        3) Pokud je sklad vytvořen, zobrazí se obsah skladu se surovinami
+3) Pokud je sklad vytvořen, zobrazí se obsah skladu se surovinami
 
 *Alternativní scénář*
 
@@ -325,22 +325,22 @@ Jako databáze pro menu, recepty, sklad a suroviny bude použit formát csv, kte
 
 2.2 Otevírací závorka bloku je obvykle na konci řádku, uzavírací samostatná na řádku. Např.
 
-     public static void main(String[] args) {
-         int scitanec1 = 5;
-         int scitanec2 = 2;
-         System.out.println(&quot;Soucet je: &quot; + (scitanec1 + scitanec2));
-     }
+             public static void main(String[] args) {
+                 int scitanec1 = 5;
+                 int scitanec2 = 2;
+                 System.out.println(&quot;Soucet je: &quot; + (scitanec1 + scitanec2));
+             }
 
-     while (&#39;&#39;podmínka&#39;&#39;) {
- &#39;&#39;příkazy&#39;&#39;
-     }
+             while (podmínka) {
+                příkazy;
+             }
 
-     if (&#39;&#39;podmínka&#39;&#39;) {
- &#39;&#39;příkazy&#39;&#39;
-     }
-     else {
- &#39;&#39;příkazy&#39;&#39;
-     }
+             if (podmínka) {
+                příkazy;
+             }
+             else {
+                příkazy;
+             }
 2.3 V řídících strukturách vždy používejte složené závorky pro bloky a to i v případě, že v bloku je pouze jeden příkaz.
 
 2.4 Používejte mezeru před otevírací závorkou a okolo operátorů.
@@ -354,24 +354,24 @@ Jako databáze pro menu, recepty, sklad a suroviny bude použit formát csv, kte
 
 Příklad:
 
- /\*\*
- \*  Třída SeznamAkci - obsahuje seznam přípustných příkazů adventury.
- \*  Používá se pro rozpoznávání jednotlivých příkazů.
- \*
- \*  Tato třída je součástí jednoduché textové hry.
- \*
- \*@author     Michael Kolling, Lubos Pavlicek, Jarmila Pavlickova
- \*@version    4.0
- \*@created    září 2006
- \*/
+         /\*\*
+         \*  Třída SeznamAkci - obsahuje seznam přípustných příkazů adventury.
+         \*  Používá se pro rozpoznávání jednotlivých příkazů.
+         \*
+         \*  Tato třída je součástí jednoduché textové hry.
+         \*
+         \*@author     Michael Kolling, Lubos Pavlicek, Jarmila Pavlickova
+         \*@version    4.0
+         \*@created    září 2006
+         \*/
 3.2 Před každou metodou by měl být její popis doplněný o popis významu jednotlivých parametrů a návratových hodnot. Příklad:
 
- /\*\*
- \* Metoda hledá nejvyšší hodnotu (maximum) v poli celých čísel.
- \*
- \*@param pole Pole celých čísel, které se bude prohledávat
- \*@return Vrací celé číslo s nejvyšší hodnotou
- \*/
+         /\*\*
+         \* Metoda hledá nejvyšší hodnotu (maximum) v poli celých čísel.
+         \*
+         \*@param pole Pole celých čísel, které se bude prohledávat
+         \*@return Vrací celé číslo s nejvyšší hodnotou
+         \*/
 3.3 Popisy tříd a metod by měly být ve formátu vhodném pro javadoc.
 
 3.4 Vlastní kód doplňte o komentář pouze v nezbytných případech. Předpokládejte, že čtenář zdrojového textu zná Javu.
